@@ -1,5 +1,34 @@
 # Changelog
 
+## [6.0.0](https://github.com/nvim-neorg/neorg/compare/v5.0.0...v6.0.0) (2023-08-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **codebase:** make the `neorg` object local to a `core` module ([#1001](https://github.com/nvim-neorg/neorg/issues/1001))
+
+### Features
+
+* **esupports.hop:** support `os_open_link` for WSL ([#963](https://github.com/nvim-neorg/neorg/issues/963)) ([628ba9f](https://github.com/nvim-neorg/neorg/commit/628ba9f58e02db6b2818f68b62a1499c22eb9cd4))
+
+
+### Bug Fixes
+
+* **calendar:** give calendar enough space to render ([#950](https://github.com/nvim-neorg/neorg/issues/950)) ([6fece15](https://github.com/nvim-neorg/neorg/commit/6fece1546d051a5f2a2d932d5978beec1ef920ab))
+* **concealer:** do not render missing node ([#1004](https://github.com/nvim-neorg/neorg/issues/1004)) ([08c7d19](https://github.com/nvim-neorg/neorg/commit/08c7d19125f5f8aa36911bfd3ea166b650e05e07))
+* **docgen:** inline `esupports.metagen` template function definitions ([#945](https://github.com/nvim-neorg/neorg/issues/945)) ([a993b35](https://github.com/nvim-neorg/neorg/commit/a993b357ab86e153ecd50e2d4b704b8dcffedc1f))
+* fetched get_language_list from utils ([#1003](https://github.com/nvim-neorg/neorg/issues/1003)) ([3db1001](https://github.com/nvim-neorg/neorg/commit/3db10018e8893aee47f3b5eb9f4d7440f8db5136))
+* **journal:** expand entry path correctly (fixes [#780](https://github.com/nvim-neorg/neorg/issues/780)) ([#995](https://github.com/nvim-neorg/neorg/issues/995)) ([e76f0cb](https://github.com/nvim-neorg/neorg/commit/e76f0cb6b3ae5e990052343ebb73a5c8d8cac783))
+* **journal:** Remove condition from 'toc' subcommand (fixes [#597](https://github.com/nvim-neorg/neorg/issues/597)) ([#996](https://github.com/nvim-neorg/neorg/issues/996)) ([99f33e0](https://github.com/nvim-neorg/neorg/commit/99f33e08fe074126b491e02854e5d00dab10f5ae))
+* On close of TOC, only delete buffer if it exists ([#978](https://github.com/nvim-neorg/neorg/issues/978)) ([32bae17](https://github.com/nvim-neorg/neorg/commit/32bae172814611f82e90b696b72cac99ff8de0e9))
+* replace `get_filetype` with `vim.filetype.match` ([#982](https://github.com/nvim-neorg/neorg/issues/982)) ([4e6dbb1](https://github.com/nvim-neorg/neorg/commit/4e6dbb184442bc33e20ce760f093c07b32ad4128))
+* **ui:** remove possible ui noise caused by user's opts ([68eae35](https://github.com/nvim-neorg/neorg/commit/68eae352bf4b936e667b5eb4d454d4d280d2286d))
+
+
+### Code Refactoring
+
+* **codebase:** make the `neorg` object local to a `core` module ([#1001](https://github.com/nvim-neorg/neorg/issues/1001)) ([5706f1e](https://github.com/nvim-neorg/neorg/commit/5706f1efdcf55f273de8f52deeb35375a303be72))
+
 ## [5.0.0](https://github.com/nvim-neorg/neorg/compare/v4.6.0...v5.0.0) (2023-06-07)
 
 
